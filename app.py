@@ -82,4 +82,4 @@ def predict():
         return render_template("results.html", news=news, prediction=result["label"], articles=result["articles"])
 
 if __name__ == "__main__":
-    app.run(debug=False,host='0.0.0.0')
+    app.run(debug=True)
